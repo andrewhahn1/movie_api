@@ -46,7 +46,7 @@ app.get('/', (req, res) => {
     res.send('Welcome to MyFlix!');
 });
 
-app.use(express.static('public'));
+app.use('public/documentation.html', express.static('public'));
 
 app.get('/movies', (req, res) => {
     res.json(topMovies);
