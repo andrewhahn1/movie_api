@@ -56,48 +56,48 @@ let movies = [
         "Featured": false
     },
     {
-        "Title": "The Lord of the Rings: The Fellowship of the Ring",
-        "Description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+        "Title": "The Ring",
+        "Description": "A journalist must investigate a mysterious videotape which seems to cause the death of anyone one week to the day after they view it.",
         "Genre": {
-            "Name": "Fantasy",
-            "Description": "A genre with fantastic themes, usually magic, supernatural events, mythology, folklore, or exotic fantasy worlds. The genre is considered a form of speculative fiction alongside science fiction films and horror films, although the genres do overlap. Fantasy films often have an element of magic, myth, wonder, escapism, and the extraordinary."
+            "Name": "Horror",
+            "Description": "A film in which very frightening or unnatural things happen."
         },
         "Director": {
-            "Name": "Peter Jackson",
-            "Bio": "Sir Peter Robert Jackson ONZ KNZM (born 31 October 1961) is a New Zealand film director, screenwriter and producer. He is best known as the director, writer and producer of the Lord of the Rings trilogy (2001–2003) and the Hobbit trilogy (2012–2014), both of which are adapted from the novels of the same name by J. R. R. Tolkien. Other notable films include the critically lauded drama Heavenly Creatures (1994), the horror comedy The Frighteners (1996), the epic monster remake film King Kong (2005), the World War I documentary film They Shall Not Grow Old (2018) and the documentary The Beatles: Get Back (2021). He is the fourth-highest-grossing film director of all-time, his films having made over $6.5 billion worldwide.",
-            "Birth": 1961.0
+            "Name": "Gore Verbinski",
+            "Bio": "Gregor Justin 'Gore' Verbinski (born March 16, 1964) is an American film director. He is best known for directing Mouse Hunt, The Ring, the first three Pirates of the Caribbean films, and Rango. For his work on Rango, Verbinski won both the Academy Award and BAFTA Award for Best Animated Film.",
+            "Birth": 1964.0
         },
-        "ImageURL":"https://images.app.goo.gl/S7kcBBRm4x3nhazu7",
+        "ImageURL":"https://images.app.goo.gl/LZHn2QXMAcF7qcmz5",
         "Featured": false
     },
     {
-        "Title": "The Lord of the Rings: The Two Towers",
-        "Description": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
+        "Title": "Mean Girls",
+        "Description": "Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.",
         "Genre": {
-            "Name": "Fantasy",
-            "Description": "A genre with fantastic themes, usually magic, supernatural events, mythology, folklore, or exotic fantasy worlds. The genre is considered a form of speculative fiction alongside science fiction films and horror films, although the genres do overlap. Fantasy films often have an element of magic, myth, wonder, escapism, and the extraordinary."
+            "Name": "Comedy",
+            "Description": "A comedy film is a category of film that emphasizes humor. These films are designed to amuse audiences and make them laugh. Films in this genre typically have a happy ending, with dark comedy being an exception to this rule. Comedy is one of the oldest genres in film, and it is derived from classical comedy in theatre."
         },
         "Director": {
-            "Name": "Peter Jackson",
-            "Bio": "Sir Peter Robert Jackson ONZ KNZM (born 31 October 1961) is a New Zealand film director, screenwriter and producer. He is best known as the director, writer and producer of the Lord of the Rings trilogy (2001–2003) and the Hobbit trilogy (2012–2014), both of which are adapted from the novels of the same name by J. R. R. Tolkien. Other notable films include the critically lauded drama Heavenly Creatures (1994), the horror comedy The Frighteners (1996), the epic monster remake film King Kong (2005), the World War I documentary film They Shall Not Grow Old (2018) and the documentary The Beatles: Get Back (2021). He is the fourth-highest-grossing film director of all-time, his films having made over $6.5 billion worldwide.",
-            "Birth": 1961.0
+            "Name": "Mark Waters",
+            "Bio": "Mark Waters grew up in South Bend, Indiana, USA. His first film, The House of Yes, debuted at the Sundance Film Festival in 1997. He is a director and producer, known for Mean Girls (2004), 500 Days of Summer (2009) and He's All That (2021).",
+            "Birth": 1964.0
         },
-        "ImageURL":"https://images.app.goo.gl/i5fMhr4Q17s59Dm77",
+        "ImageURL":"https://images.app.goo.gl/8gQ3QDBNjBynvRk97",
         "Featured": false
     },
     {
-        "Title": "The Lord of the Rings: Return of the King",
-        "Description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+        "Title": "Sordid Lives",
+        "Description": "As three generations of a family in a small Texas town gather for a funeral, we learn the hilarious, sad, trashy truth of their 'Sordid Lives.'",
         "Genre": {
-            "Name": "Fantasy",
-            "Description": "A genre with fantastic themes, usually magic, supernatural events, mythology, folklore, or exotic fantasy worlds. The genre is considered a form of speculative fiction alongside science fiction films and horror films, although the genres do overlap. Fantasy films often have an element of magic, myth, wonder, escapism, and the extraordinary."
+            "Name": "Comedy",
+            "Description": "A comedy film is a category of film that emphasizes humor. These films are designed to amuse audiences and make them laugh.[1] Films in this genre typically have a happy ending, with dark comedy being an exception to this rule. Comedy is one of the oldest genres in film, and it is derived from classical comedy in theatre."
         },
         "Director": {
-            "Name": "Peter Jackson",
-            "Bio": "Sir Peter Robert Jackson ONZ KNZM (born 31 October 1961) is a New Zealand film director, screenwriter and producer. He is best known as the director, writer and producer of the Lord of the Rings trilogy (2001–2003) and the Hobbit trilogy (2012–2014), both of which are adapted from the novels of the same name by J. R. R. Tolkien. Other notable films include the critically lauded drama Heavenly Creatures (1994), the horror comedy The Frighteners (1996), the epic monster remake film King Kong (2005), the World War I documentary film They Shall Not Grow Old (2018) and the documentary The Beatles: Get Back (2021). He is the fourth-highest-grossing film director of all-time, his films having made over $6.5 billion worldwide.",
-            "Birth": 1961.0
+            "Name": "Del Shores",
+            "Bio": "Delferd Lynn Shores is an American film director, television writer, producer, playwright, standup comedian, and actor. He has written, directed and produced across studio and independent film, network and cable television and Los Angeles, regional and national touring theatre.",
+            "Birth": 1957.0
         },
-        "ImageURL":"https://images.app.goo.gl/8CNNsCUYoznFtGP17",
+        "ImageURL":"https://images.app.goo.gl/GsBxCF1yRjpXVEH9A",
         "Featured": false
     },
     {
