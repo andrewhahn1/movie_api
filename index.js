@@ -1,17 +1,13 @@
+const bodyParser = require('body-parser');
 const express = require('express'),
-  bodyParser = require('body-parser'),
-  uuid = require('uuid');
-
-const mongoose = require('mongoose');
-
-const morgan = require('morgan'),
+    morgan = require('morgan'),
     fs = require('fs'),
-    path = require('path');
-    
+    path = require('path'),
+    uuid = require('uuid');
+
 const app = express();
-
-const Models = require('./models.js');
-
+const mongoose = require('mongoose');
+const Models = require('./models.js')
 const Movies = Models.Movie;
 const Users = Models.User;
 const Genres = Models.Genre;
@@ -160,20 +156,24 @@ app.get('/movies/:Title', (req, res) => {
 });
 
 // READ - Return data about genre
-app.get('/genre/:Name', (req, res) => {
-    Genres.findOne({ Name: req.params.Title })
-    .then((genre) => {
-    res.json(genre.Description);
+app.get('/movies/genre/:Name', (req, res) => {
+  Movie.find({ 'Genre.Name': req.params.Name })
+    .then((movies) => {
+      if (movies.length === 0) {
+        return res.status(404).send("Genre not found.");
+      }
+      const genreDescription = movies[0].Genre.Description;
+      res.json(genreDescription);
     })
     .catch((err) => {
-        console.error(err);
-        res.status(500).send("Error: " + err);
+      console.error(err);
+      res.status(500).send("Error: " + err);
     });
 });
 
 // READ - Return data about a director
-app.get('/director/:Name', (req, res) => {
-    Movies.findOne({ Name: req.params.Title })
+app.get('/movies/director/:Name', (req, res) => {
+    Directors.findOne({ Name: req.params.Name })
     .then((director) => {
     res.json(director);
     })
