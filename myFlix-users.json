@@ -1,0 +1,5 @@
+?
+{"_id":{"$oid":"65de25f4e05dc35df7215d9d"},"name":"Evan","username":"chefevanonearth","password":"mynameisevan","email":"chefevan@gmail.com","birthday":{"$date":"1988-04-14T00:00:00Z"},"favoriteMovies":[{"$oid":"65de16be9577bc2b6e8413bd"},{"$oid":"65de17459577bc2b6e8413bf"}]}
+{"_id":{"$oid":"65de26995559959dac52919a"},"name":"Alexis","username":"g0tta_bla$t","password":"bismarkgrover23","email":"alliegrowlx@gmail.com","birthday":{"$date":"1993-09-22T00:00:00Z"},"favoriteMovies":[{"$oid":"65de16be9577bc2b6e8413bd"},{"$oid":"65de17099577bc2b6e8413be"}]}
+{"_id":{"$oid":"65de27035559959dac52919c"},"name":"Tyler","username":"tyler.heaux","password":"pik@chu#024","email":"tjhahn31@gmail.com","birthday":{"$date":"1992-10-02T00:00:00Z"},"favoriteMovies":[{"$oid":"65de16719577bc2b6e8413bc"},{"$oid":"65de17099577bc2b6e8413be"}],"FavoriteMovies":[{"$oid":"65de18359577bc2b6e8413c2"}]}
+{"_id":{"$oid":"65de27485559959dac52919d"},"name":"TC","username":"youaltaknow","password":"sailorsa+urn","email":"tcw5@gmail.com","birthday":{"$date":"1989-08-09T00:00:00Z"},"favoriteMovies":[{"$oid":"65de16569577bc2b6e8413bb"},{"$oid":"65de18e09577bc2b6e8413c4"}]}
