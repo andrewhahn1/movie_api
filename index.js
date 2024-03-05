@@ -77,7 +77,7 @@ app.put('/users/:Username', async (req, res) => {
   });
 
 // CREATE  - Add movie to favorites
-app.post('/users/:Username/:Title', async (req, res) => {
+app.post('/users/:Username/:MovieID', async (req, res) => {
     await Users.findOneAndUpdate({ Username: req.params.Username }, {
        $push: { FavoriteMovies: req.params.MovieID }
      },
@@ -93,7 +93,7 @@ app.post('/users/:Username/:Title', async (req, res) => {
 
 
 // DELETE  - Remove movie from favorites
-app.delete('/users/:Username/:Title', async (req, res) => {
+app.delete('/users/:Username/:MovieID', async (req, res) => {
     await Users.findOneAndUpdate(
         { Username: req.params.Username },
         { $pull: { FavoriteMovies: req.params.MovieID } },
@@ -158,7 +158,7 @@ app.get('/movies/:Title', (req, res) => {
 
 // READ - Return data about genre
 app.get('/movies/genre/:genreName', (req, res) => {
-    Movies.find({ genre: req.params.genreName })
+    Movies.find({ Genre: req.params.genreName })
     .then((movies) => {
       res.status(201).json(movies);
     })
@@ -170,7 +170,7 @@ app.get('/movies/genre/:genreName', (req, res) => {
 
 // READ - Return data about a director
 app.get('/movies/director/:Name', (req, res) => {
-    Directors.findOne({ director: req.params.directorName })
+    Directors.findOne({ Director: req.params.directorName })
     .then((director) => {
     res.json(director);
     })
